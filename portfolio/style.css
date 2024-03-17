@@ -1,39 +1,121 @@
-.Zama-button {
-    width: 180px; /* Set the width of the button */
-    height: 50px; /* Set the height of the button */
+body{
+    background-image: linear-gradient(to bottom right, #04042c , #040441, #470247);
+}
+
+.AboutMe-Button{
+    background-color: #07284b;
+    color: #1abbe4; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.AboutMe-Button:hover{
+    background-color: #0a5564; 
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px 5px #1abbe4;
+}
+
+.Home-button{
+    margin-top: 10px;
+    background-color: #07284b;
+    color: #1abbe4; 
+    font-size: 16px;
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+
+    
+}
+
+.Home-button:hover {
+    background-color: #0a5564;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #1abbe4;
 }
 
 
-.ZamagcinaButton{
-    color: #333; /* Set text color */
-    font-size: 16px; /* Set font size */
-    line-height: 1.5; /* Set line height */
-    margin-bottom: 20px; /* Set bottom margin */
+.Skills-button {
+    margin-top: 10px;
+    background-color: #07284b;
+    color: #1abbe4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
 
+.Skills-button:hover {
+    background-color: #0a5564; 
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #1abbe4;
 }
 
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #6e45e2, #88d3ce); /* Adjust gradient colors as needed */
-    color: white;
+.Projects-button{
+    margin-top: 10px;
+    background-color: #07284b;
+    color: #1abbe4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
 }
 
-header {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for header */
+.Projects-button:hover {
+    background-color: #0a5564;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #1abbe4; 
+}
+
+.Contact-button{
+    background-color: #07284b;
+    color: #1abbe4;
+    font-size: 16px; 
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.Contact-button:hover{
+    background-color: #0a5564;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #1abbe4; 
+}
+
+.about-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     padding: 20px;
-    text-align: center;
+    width: 300px; 
+    margin-left: 800px;
+    margin-top: 10px;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
-}
 
-footer {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for footer */
-    padding: 10px;
-    text-align: center;
+img{
+    margin-top: 80px;
 }
