@@ -15,12 +15,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
-.AboutMe-Button:hover{
-    background-color: #000000; 
+.AboutMe-Button:hover {
+    background-color: #c8e4eb;
     transform: scale(1.1); 
-    box-shadow: 0 0 20px 5px #feffff;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 .Home-button{
@@ -35,14 +40,19 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 
     
 }
 
 .Home-button:hover {
-    background-color: #000000;
-    transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #ffffff;
+    background-color: #c8e4eb;
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 
@@ -58,12 +68,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
 .Skills-button:hover {
-    background-color: #000000;
-    transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #ffffff;
+    background-color: #c8e4eb;
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 
@@ -79,12 +94,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
 .Projects-button:hover {
-    background-color: #000000;
-    transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #ffffff;
+    background-color: #c8e4eb;
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 .Contact-button{
@@ -98,12 +118,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
 .Contact-button:hover{
-    background-color: #000000;
-    transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #ffffff;
+    background-color: #c8e4eb;
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 .container {
@@ -125,37 +150,131 @@ body {
     background-color: #000000;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
-    width: 300px;
+    padding: 50px;
+    width: 400px; 
     margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
-.skills-container, .projects-container {
+.about-box:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #ffffff; 
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+    0 0 20px rgba(255, 255, 255, 0.5),
+     0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.skills-container {
     color: rgb(255, 255, 255);
     background-color: #000000;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     margin-top: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
+.skills-container:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+    0 0 20px rgba(255, 255, 255, 0.5),
+     0 0 30px rgba(255, 255, 255, 0.3);
+}
 
+.projects-container {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.projects-container:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+    0 0 20px rgba(255, 255, 255, 0.5),
+     0 0 30px rgba(255, 255, 255, 0.3);
+}
 
 .contact-box {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #000000;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 50px;
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 600px;
+    margin-bottom: 20px;
     width: fit-content; /* Adjust width as needed */
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
-
-
+.contact-box:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
+     0 0 20px rgba(255, 255, 255, 0.5),
+      0 0 30px rgba(255, 255, 255, 0.3);
+}
 
 
 .cv-button{
     margin-left: 500px;
 }
+
+.cv-button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 10px; /* Adjusted margin-left to fit next to Contact-button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cv-button:hover {
+    background-color: #c8e4eb;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+}
+
