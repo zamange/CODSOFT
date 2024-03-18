@@ -1,10 +1,11 @@
-body{
-    background-image: linear-gradient(to bottom right, #04042c , #040441, #470247);
+body {
+    background: linear-gradient(to right, black 50%, white 50%);
 }
 
+
 .AboutMe-Button{
-    background-color: #07284b;
-    color: #1abbe4; 
+    background-color: #000000;
+    color: #ffffff;  
     font-size: 16px; 
     line-height: 1.5; 
     margin-bottom: 20px; 
@@ -17,15 +18,15 @@ body{
 }
 
 .AboutMe-Button:hover{
-    background-color: #0a5564; 
+    background-color: #000000; 
     transform: scale(1.1); 
-    box-shadow: 0 0 20px 5px #1abbe4;
+    box-shadow: 0 0 20px 5px #feffff;
 }
 
 .Home-button{
     margin-top: 10px;
-    background-color: #07284b;
-    color: #1abbe4; 
+    background-color: #000000;
+    color: #ffffff; 
     font-size: 16px;
     line-height: 1.5; 
     margin-bottom: 20px; 
@@ -39,16 +40,16 @@ body{
 }
 
 .Home-button:hover {
-    background-color: #0a5564;
+    background-color: #000000;
     transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #1abbe4;
+    box-shadow: 0 0 20px 5px #ffffff;
 }
 
 
 .Skills-button {
     margin-top: 10px;
-    background-color: #07284b;
-    color: #1abbe4;
+    background-color: #000000;
+    color: #ffffff; 
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px; 
@@ -60,16 +61,16 @@ body{
 }
 
 .Skills-button:hover {
-    background-color: #0a5564; 
+    background-color: #000000;
     transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #1abbe4;
+    box-shadow: 0 0 20px 5px #ffffff;
 }
 
 
 .Projects-button{
     margin-top: 10px;
-    background-color: #07284b;
-    color: #1abbe4;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -81,14 +82,14 @@ body{
 }
 
 .Projects-button:hover {
-    background-color: #0a5564;
+    background-color: #000000;
     transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #1abbe4; 
+    box-shadow: 0 0 20px 5px #ffffff;
 }
 
 .Contact-button{
-    background-color: #07284b;
-    color: #1abbe4;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 16px; 
     line-height: 1.5;
     margin-bottom: 20px;
@@ -100,22 +101,61 @@ body{
 }
 
 .Contact-button:hover{
-    background-color: #0a5564;
+    background-color: #000000;
     transform: scale(1.1);
-    box-shadow: 0 0 20px 5px #1abbe4; 
+    box-shadow: 0 0 20px 5px #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.myprofile {
+    width: 600px;
+    margin-right: 20px; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .about-box {
-    background-color: #f0f0f0;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    width: 300px; 
-    margin-left: 800px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.skills-container, .projects-container {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
     margin-top: 10px;
 }
 
 
-img{
-    margin-top: 80px;
+
+.contact-box {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: fit-content; /* Adjust width as needed */
+}
+
+
+
+
+
+.cv-button{
+    margin-left: 500px;
 }
