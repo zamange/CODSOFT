@@ -169,8 +169,10 @@ body {
     box-shadow: 0 0 20px 5px #ffffff; 
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
     0 0 20px rgba(255, 255, 255, 0.5),
-     0 0 30px rgba(255, 255, 255, 0.3);
+    0 0 30px rgba(255, 255, 255, 0.3);
 }
+
+
 
 .skills-container {
     color: rgb(255, 255, 255);
@@ -182,7 +184,6 @@ body {
     margin-bottom: 20px;
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
     font-family: "Roboto", sans-serif;
-    padding: 12px 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
@@ -194,7 +195,7 @@ body {
     box-shadow: 0 0 20px 5px #ffffff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
     0 0 20px rgba(255, 255, 255, 0.5),
-     0 0 30px rgba(255, 255, 255, 0.3);
+    0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .projects-container {
@@ -219,7 +220,7 @@ body {
     box-shadow: 0 0 20px 5px #ffffff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
     0 0 20px rgba(255, 255, 255, 0.5),
-     0 0 30px rgba(255, 255, 255, 0.3);
+    0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 .contact-box {
@@ -231,7 +232,7 @@ body {
     margin-top: 20px;
     margin-left: 600px;
     margin-bottom: 20px;
-    width: fit-content; /* Adjust width as needed */
+    width: fit-content; 
     transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
     font-family: "Roboto", sans-serif;
     padding: 12px 24px;
@@ -245,8 +246,8 @@ body {
     transform: scale(1.1);
     box-shadow: 0 0 20px 5px #ffffff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
-     0 0 20px rgba(255, 255, 255, 0.5),
-      0 0 30px rgba(255, 255, 255, 0.3);
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 
@@ -283,4 +284,44 @@ body {
 
 .copyright {
     color: white;
+}
+
+
+.info-box {
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+    margin-bottom: 200px;
+    width: 50%; 
+    margin: 0 auto;
+    text-align: center; 
+    margin-left: 500px;
+}
+
+.info-box:hover {
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(141, 138, 138, 0.5);
+}
+
+
+.Name {
+    font-size: 50px;
+    color: white;
+
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.Greeting, .Intro {
+    font-size: 25px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
