@@ -22,7 +22,7 @@ Downloadable Resume: Offers a link to download Zamagcina's resume in PDF format.
 ## Usage
 To use this portfolio:
 Clone the repository to your local machine.
-Open the index.html file in a web browser.
+Open the portfolio.html file in a web browser.
 Navigate through the different sections using the provided buttons.
 Contact Me
 Feel free to reach out to Zamagcina Ngeyane via LinkedIn for any inquiries, collaborations, or job opportunities.
