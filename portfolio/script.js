@@ -37,3 +37,20 @@ function toggleContactMeBox() {
     }
 }
 
+
+function showHomePage() {
+    var homePage = document.getElementById("homePage");
+    if (homePage.style.display === "none") {
+        homePage.style.display = "block";
+    } else {
+        homePage.style.display = "none";
+    }
+}
+
+function redirectToGitHub() {
+    window.location.href = "https://github.com/zamange";
+}
+
+function redirectToLinkedIn() {
+    window.location.href = "https://www.linkedin.com/in/zamagcina-ngeyane-a94654225";
+}
