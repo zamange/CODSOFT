@@ -13,27 +13,22 @@
 <body>
 
 
-    <button class="Home-button" onclick="showHomePage()">Home</button>
-    <button class="AboutMe-Button" onclick="toggleAboutBox()">About Me</button>
-    <button class="Skills-button" onclick="toggleSkillsBox()">Skills</button>
-    <button class="Projects-button" onclick="toggleProjectsBox()">Projects</button>
-    <button class="Contact-button" onclick="toggleContactMeBox()">Contact Me</button>
+    <button class="Home-button">Home</button>
+    <button class="AboutMe-Button">About Me</button>
+    <button class="Skills-button">Skills</button>
+    <button class="Projects-button">Projects</button>
+    <button class="Contact-button">Contact Me</button>
     <a class="cv-button" 
     href="/home/wtc/CODSOFT/portfolio/resume/ZamagcinaNgeyave.resume.pdf" 
     download="Resume.pdf">Download My Resume</a>
 
     
-    <div class="container" id="homePage">
+    <div class="container">
         <img class="myprofile" src="img/myphoto-removebg-preview.png" alt="profile picture">
-        <div class="info-box">
-            <p class="Name">ZAMAGCINA NGEYANE</p>
-            <p class="Greeting">Welcome To My Page!</p>
-            <p class="Intro">I am a full-stack developer. Be free to look around!</p>
-        </div>
     </div>
 
         <div class="content">
-            <div class="about-box" id="aboutBox" style="display: none;">
+            <div class="about-box">
                 <p>
                     I'm Zamagcina Ngeyane, 
                     a Full-Stack developer experienced in HTML, CSS, JavaScript, Git, GitLab, GitHub, Python, Java, and Figma.
@@ -43,7 +38,7 @@
                 </p>
             </div>
 
-            <div class="skills-container" id="skillscontainer" style="display: none;">
+            <div class="skills-container">
                 <b class="skills-title">SKILLS</b>
                 <ul class="skills-list">
                     <li>html</li>
@@ -57,9 +52,9 @@
                 </ul>
             </div>
 
-            <div class="projects-container" id="projectsContainer" style="display: none;" onclick="redirectToGitHub()">
+            <div class="projects-container">
                 <b class="projects-title">PROJECTS</b>
-                <p class="githublink">see my github</p>
+                <p class="githublink">https://github.com/settings/profile</p>
                 <ul class="projects-list">
                     <li>Toy Robot</li>
                     <li>Hangman</li>
@@ -69,10 +64,11 @@
         </div>
     </div>
 
-    <div class="contact-box" id="ContactBox" style="display: none;" onclick="redirectToLinkedIn()">
+    <div class="contact-box">
         <b>Contact Me</b>
         <ul>
             <li>Linkedin</li>
+            <i>www.linkedin.com/in/zamagcina-ngeyane-a94654225</i>
         </ul>
     </div>
 
@@ -80,7 +76,7 @@
     <footer>
         <p class="copyright"> 2024 Zamagcina Ngeyane. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    
 
 
 </body>
